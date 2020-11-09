@@ -37,3 +37,5 @@ case $argument in
 esac
 
 "$TOOLS/dmg2img" "$TOOLS/FetchMacOS/BaseSystem/BaseSystem.dmg" "$PWD/BaseSystem.img"
+
+cowsay "Hello! BaseSystem.dmg has been generated!"
